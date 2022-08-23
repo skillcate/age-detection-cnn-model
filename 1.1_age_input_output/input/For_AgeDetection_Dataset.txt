@@ -1,0 +1,11 @@
+There are couple of ZIP files you would need to download and keep in this ./1.1_age_input_output/input directory:
+1. combined_faces_train_augmented.zip
+2. combined_faces.zip
+
+Kaggle link for these two files: https://www.kaggle.com/datasets/skillcate/merged-augmented-utk-faces-facial-age-dataset
+
+Dataset details:
+1. We combine our original datasets UTK Faces and Facial Age into one combined dataset of 33,486 images
+2. Then we split it up into 70-30 training and test sets
+3. Then on the training set of 23,440 images, we do Data Augmentation to inflate it to 10x, viz., 234,400 images, which is: combined_faces_train_augmented.zip
+4. Test set remains as is: combined_faces.zip
